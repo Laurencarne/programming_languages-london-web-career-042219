@@ -39,6 +39,6 @@ def reformat_languages(languages)
       new_hash[key] = {k: v}
     new_hash
   end
-#    binding.pry
+    binding.pry
   end
 end

@@ -37,8 +37,8 @@ def reformat_languages(languages)
     value.each do |k, v|
       v.each do |kk, vv|
 
-    new_hash[k] = {kk => vv}
-    new_hash[k] = {:style => key}
+    new_hash[k] = {kk => vv, :style => key}
+    new_hash[k] = 
     binding.pry
   end
 end

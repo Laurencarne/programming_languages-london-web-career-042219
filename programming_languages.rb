@@ -39,6 +39,7 @@ def reformat_languages(languages)
     binding.pry
   end
 end
+end
 
 =begin
 it 'reformats ruby properly' do

@@ -1,8 +1,3 @@
-def reformat_languages(languages)
-  # your code here
-end
-
-
 languages = {
   :oo => {
     :ruby => {
@@ -34,3 +29,9 @@ languages = {
 
   }
 }
+
+def reformat_languages(languages)
+  new_hash = {}
+  hash.each do |key, value|
+  end
+end

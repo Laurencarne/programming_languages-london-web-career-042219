@@ -39,7 +39,9 @@ def reformat_languages(languages)
   end
 end
 
+=begin
 it 'reformats ruby properly' do
   ruby = {:type => "interpreted", :style => [:oo]}
   ruby.each { |k,v| expect(result[:ruby][k]).to eq(v) }
 end
+=end

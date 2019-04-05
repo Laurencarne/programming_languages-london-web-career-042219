@@ -35,12 +35,20 @@ def reformat_languages(languages)
   new_hash = {}
   languages.each do |key, value|
     value.each do |k, v|
-    new_hash[key] = value
+      v.each do |kk, vv|
+        
+    new_hash[k] = {}
     binding.pry
   end
 end
 end
+end
 
+{
+  :ruby => {
+    :type => "interpreted",
+    :style => [:oo]
+  },
 =begin
 it 'reformats ruby properly' do
   ruby = {:type => "interpreted", :style => [:oo]}

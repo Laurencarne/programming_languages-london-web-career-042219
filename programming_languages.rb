@@ -34,6 +34,6 @@ languages = {
 def reformat_languages(languages)
   new_hash = {}
   languages[:oo].collect do |key, value|
-#    binding.pry
+    binding.pry
   end
 end

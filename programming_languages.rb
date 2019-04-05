@@ -33,6 +33,6 @@ languages = {
 def reformat_languages(languages)
   new_hash = {}
   hash.each do |key, value|
-    binding.pry
   end
+  binding.pry
 end

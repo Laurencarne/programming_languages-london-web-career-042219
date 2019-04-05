@@ -39,7 +39,7 @@ def reformat_languages(languages)
 
     new_hash[k] = {kk => vv}
     new_hash[k] = {:style => key}
-#    binding.pry
+    binding.pry
   end
 end
 end
@@ -51,6 +51,8 @@ end
 #    :type => "interpreted",
 #    :style => [:oo]
 #  },
+
+
 =begin
 it 'reformats ruby properly' do
   ruby = {:type => "interpreted", :style => [:oo]}

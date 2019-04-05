@@ -44,11 +44,7 @@ end
 end
 end
 
-{
-  :ruby => {
-    :type => "interpreted",
-    :style => [:oo]
-  },
+
 =begin
 it 'reformats ruby properly' do
   ruby = {:type => "interpreted", :style => [:oo]}
